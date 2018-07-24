@@ -1,8 +1,8 @@
 {
-  "name": "news-app",
+  "name": "mongodb",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "dependencies": {
     "body-parser": "^1.18.3",
     "cheerio": "^1.0.0-rc.2",
@@ -13,16 +13,17 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shinkaybaz/News-App.git"
+    "url": "git+https://github.com/anasib/MongoDB.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shinkaybaz/News-App/issues"
+    "url": "https://github.com/anasib/MongoDB/issues"
   },
-  "homepage": "https://github.com/shinkaybaz/News-App#readme"
+  "homepage": "https://github.com/anasib/MongoDB#readme"
 }
